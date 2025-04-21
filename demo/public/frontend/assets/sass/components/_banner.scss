@@ -1,0 +1,301 @@
+.banner {
+    padding: 240px 0 60px 0;
+    background: url(../assets/images/banner/banner-1.png) lightgray 0px -15px / 100% 106.977% no-repeat;
+
+    .banner-rating {
+
+        width: 254px;
+        margin-bottom: 12px;
+
+        .banner-rating-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff;
+            padding: 14px 22px;
+            border-radius: 100px;
+        }
+
+        .icon {
+            line-height: 0;
+        }
+
+        .text {
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 145%;
+                /* 26.1px */
+                letter-spacing: -0.09px;
+                color: var(--heading-color);
+            }
+        }
+    }
+
+    .banner-taiteL {
+
+        h1 {
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 90px;
+            /* 132.353% */
+            letter-spacing: -0.68px;
+            color: var(--heading-color);
+
+            span {
+                background: -webkit-linear-gradient(#F01543 -1.58%, #FE724C 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+    }
+
+
+    .banner-taiteL-btn {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        margin-top: 50PX;
+
+        .main-btn-four {
+            span {
+                svg {
+                    fill: currentColor;
+                    color: #fff;
+                }
+            }
+
+            &:hover {
+                span {
+
+
+                    svg {
+                        color: var(--primary-color);
+                        transition: all linear 0.5s;
+                    }
+                }
+            }
+        }
+
+
+        .my-video-links {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 160%;
+            /* 32px */
+            letter-spacing: -0.1px;
+            color: var(--heading-color);
+            gap: 18px;
+            transition: all linear 0.5s;
+
+            // hover start 
+
+            &:hover {
+
+                color: var(--primary-color);
+
+                .icon {
+                    background-color: var(--primary-color);
+
+                    span {
+                        svg {
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+
+            // hover end
+
+            .icon {
+                width: 66px;
+                height: 66px;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+                transition: all linear 0.5s;
+                position: relative;
+                border: 1PX solid var(--primary-color);
+
+                span {
+                    line-height: 0;
+
+                    svg {
+                        fill: currentColor;
+                        color: #000;
+                        stroke: currentColor;
+                        transition: all linear 0.5s;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+    .banner-img {
+        position: relative;
+
+        .banner-img-position {
+            position: absolute;
+            bottom: 127px;
+            right: -248px;
+            animation: Rotate 8s linear infinite;
+        }
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+// banner-two 
+
+
+.banner-two {
+    padding: 200px 0 50px 0;
+    background: url(../assets/images/banner/banner-bg-two.png) no-repeat center / cover;
+
+
+    .banner-two-taitel {
+        h1 {
+            color: #fff;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            /* 132.353% */
+            letter-spacing: -0.68px;
+
+            span {
+                background: linear-gradient(90deg, #F01543 -1.58%, #FE724C 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        p {
+            padding-top: 32px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 145%;
+            /* 26.1px */
+            letter-spacing: -0.09px;
+            color: var(--grey-scale-100);
+        }
+    }
+
+
+
+    .banner-taiteL-btn {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        margin-top: 50PX;
+
+        .main-btn-four {
+            span {
+                svg {
+                    fill: currentColor;
+                    color: #fff;
+                }
+            }
+
+            &:hover {
+                span {
+
+
+                    svg {
+                        color: var(--primary-color);
+                        transition: all linear 0.5s;
+                    }
+                }
+            }
+        }
+
+
+        .my-video-links {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 160%;
+            /* 32px */
+            letter-spacing: -0.1px;
+            color: #fff;
+            gap: 18px;
+            transition: all linear 0.5s;
+
+            // hover start 
+
+            &:hover {
+
+                color: var(--primary-color);
+
+                .icon {
+                    background-color: var(--primary-color);
+
+                    span {
+                        svg {
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+
+            // hover end
+
+            .icon {
+                width: 66px;
+                height: 66px;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+                transition: all linear 0.5s;
+                position: relative;
+
+                span {
+                    line-height: 0;
+
+                    svg {
+                        fill: currentColor;
+                        color: #000;
+                        stroke: currentColor;
+                        transition: all linear 0.5s;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+
+}
